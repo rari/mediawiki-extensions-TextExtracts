@@ -86,10 +86,10 @@ class ExtractFormatter extends HtmlFormatter {
 		$spans = $doc->getElementsByTagName( 'span' );
 
 		/** @var DOMElement $span */
-		foreach ( $spans as $span ) {
-			$span->removeAttribute( 'class' );
-			$span->removeAttribute( 'style' );
-		}
+		// foreach ( $spans as $span ) {
+			// $span->removeAttribute( 'class' );
+			// $span->removeAttribute( 'style' );
+		// }
 
 		return $removed;
 	}
